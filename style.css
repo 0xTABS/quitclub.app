@@ -96,6 +96,8 @@ nav {
     align-items: center;
     gap: 80px;
     border-bottom: 1px solid #292929;
+    min-height: 300px;
+
 }
 
 .btn {
@@ -239,4 +241,3 @@ footer {
 .highlight {
     color: var(--primary-100);
 }
-
