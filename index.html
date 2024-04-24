@@ -9,14 +9,39 @@
 </head>
 <body>
   <main>
+    <div class="message">
+      <p class="username">@wonderwoman</p>
+      <div class="bottom">
+        <div class="avatar">
+          <img class="avatar" src="media/avatar.jpg" alt="">
+        </div>
+        <div class="bubble">
+          <p>How's everyone doing today?</p>
+          <p class="delivery-time">2m</p>
+        </div>
+      </div>
+    </div>
+    <div class="message-2">
+      <p class="username">@megaman</p>
+      <div class="bottom">
+        <div class="avatar">
+          <img class="avatar" src="media/megaman.jpg" alt="">
+        </div>
+        <div class="bubble">
+          <p>Staying strong! How about you?</p>
+          <p class="delivery-time">2m</p>
+        </div>
+      </div>
+    </div>
     <div class="waitinglist">
       <div class="intro">
         <h1>It's time to quit.</h1>
         <p class="opacity-40">First 50 people will get access to early beta when ready.</p>
       </div>
-      <form name="contact" method="post" data-netlify="true" onsubmit="submit">
+      <form name="contact" method="post" data-netlify="true" onsubmit="submit" data.netlify-honeypot="bot-field">
+        <input class="d-none" name="bot-field">
         <input type="email" placeholder="Your email" name="email" id="input">
-        <button type="submit" class="btn">Join</button>
+        <button type="submit" class="btn">Join waitinglist</button>
       </form>
     </div>
   </main>
