@@ -38,7 +38,14 @@
         <h1>It's time to quit.</h1>
         <p class="opacity-40">First 50 people will get access to early beta when ready.</p>
       </div>
-      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+      <form name="waitinglist"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            >
+        <div class="hidden">
+          <input name="bot-field" />
+        </div>
         <input type="email" placeholder="Enter your email" name="email" id="input">
         <button type="submit" class="btn">Join waitinglist</button>
       </form>
