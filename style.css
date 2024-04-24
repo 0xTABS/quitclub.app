@@ -153,7 +153,7 @@
     text-align: center;
   }
 
-  .message {
+  .message-recieve {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -162,13 +162,14 @@
     gap: 4px;
   }
 
-  .message-2 {
+  .message-send {
     position: absolute;
     display: flex;
     flex-direction: column;
     bottom: 10%;
     left: 10%;
     gap: 4px;
+    text-align: end;
   }
 
   .username {
@@ -178,10 +179,18 @@
     margin-left: 44px;
   }
 
+  .username-send {
+    font-size: 11px;
+    opacity: 0.4;
+    font-weight: 500;
+    margin-right: 44px;
+  }
+
   .bottom {
     display: flex;
     gap: 12px;
   }
+
   .avatar {
     display: flex;
     justify-content: center;
@@ -208,5 +217,18 @@
     background-color: #f7f7f7;
     border-radius: 24px;
     font-size: 16px;
-    max-width: 260px;
+    max-width: 2700px;
+    gap: 4px;
+  }
+
+  .bubble-send {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 16px;
+    background-color: #3161E5;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    max-width: 2700px;
+    gap: 4px;
   }
