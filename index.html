@@ -1,123 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quitclub - Quit your addictions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TABS</title>
+  <meta name="description" content="World-class design subscription [for founders]™">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="nav-content">
-
-        <div class="nav-left-content">
-          <a href="#" class="logo"><img src="media/logo.svg" alt=""></a>
-       <!--
-          <a href="#" class="nav-link">Features</a>
-          <a href="#" class="nav-link">Articles</a>
-       -->   
-        </div>
-        <a href="#" target="_blank" class="btn secondary">Coming soon</a>
-    </div>
-  </nav>
-  <div class="section">
-    <div class="content-container">
-        <div class="text-container">
-            <h1>Quit your bad habits together</h1>
-            <p class="sub-heading">Connect with a group of five individuals starting their quit journey on the same day as you.</p>
-        </div>
-        <a href="#" class="btn">
-            <img src="media/apple-icon.svg" alt="apple icon">
-            Coming soon
-        </a>
-        <img class="hero-image" src="media/iphone-mockup-2.svg" alt="iphone iphone-mockup">
-    </div>
-  </div>
-  <div class="section padding">
-    <div class="content-container">
-      <div class="text-container">
-        <h2>Hold eachother accountable.</h2>
-        <p class="sub-heading">Stay committed to your recovery journey with daily check-ins and the support of your group members.</p>
+  <main>
+    <div class="waitinglist">
+      <div class="intro">
+        <h1>It's time to quit.</h1>
+        <p class="opacity-40">First 50 people will get access to early beta when ready.</p>
       </div>
-      
-      <!--
-      <div class="pricing">
-        <div class="card-item">
-          <h3 class="title">Free</h3>
-          <div class="bottom">
-            <p class="weekly">$1/week</p>
-            <div class="price-text">
-              <h3 class="price">$4</h3>
-              <p>Billed per month</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-item">
-          <h3 class="title">Yearly</h3>
-          <div class="bottom">
-            <p class="weekly">$0.5/week</p>
-            <div class="price-text">
-              <h3 class="price">$24</h3>
-              <p>Billed per year</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-item">
-          <h3 class="title">
-            Lifetime
-            Access
-          </h3>
-          <div class="bottom">
-            <p class="weekly">$0.5/week</p>
-            <div class="price-text">
-              <h3 class="price">$69</h3>
-              <p>One-time payment</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      -->
-      <a href="#" class="btn">
-        <img src="media/apple-icon.svg" alt="apple icon">
-        Coming soon
-            </a>
+      <form name="contact" method="post" data-netlify="true" onsubmit="submit">
+        <input type="email" placeholder="Your email" name="email" id="input">
+        <button type="submit" class="btn">Join</button>
+      </form>
     </div>
-
-  </div>
-
-  
-  <footer>
-    <div class="socials">
-      <a href="https://twitter.com/fabianrosholm"><img src="media/twitter.svg" alt=""></a>
-      <a href="#"><img src="media/discord.svg" alt=""></a>
-      <a href="https://www.linkedin.com/in/fabianrosholm/"><img src="media/linkedin.svg" alt=""></a>
-    </div>
-    <a href="https://twitter.com/fabianrosholm" target="_blank" class="made-with">Made with ❤️ by Fabian</a>
-    <p class="copyright">©2024, Quitclub. All rights reserved.</p>
-  </footer>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyDExdRx4-fmXBFqVQp4E0hxIA6vtm9F65M",
-      authDomain: "quitclub-5032c.firebaseapp.com",
-      projectId: "quitclub-5032c",
-      storageBucket: "quitclub-5032c.appspot.com",
-      messagingSenderId: "768356464558",
-      appId: "1:768356464558:web:587e7c4fb2978e0092ba3f",
-      measurementId: "G-CCS8XC16PH"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
+  </main>
 </body>
 </html>
