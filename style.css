@@ -49,6 +49,10 @@
   .d-none {
     display: none;
   }
+
+  .medium {
+    font-weight: 500;
+  }
   
   @font-face {
     font-family: Inter;
